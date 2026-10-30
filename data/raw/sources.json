@@ -1,0 +1,14 @@
+{
+  "facebook_live.csv": {
+    "url": "https://archive.ics.uci.edu/static/public/488/facebook+live+sellers+in+thailand.zip",
+    "original_file": "Live_20210128.csv",
+    "sha256": "ea6a31aab095b15d3fd0c24a63d5d59822f1dd34922b09295179ea9c464a8d5b",
+    "license": "CC BY 4.0"
+  },
+  "facebook_metrics.csv": {
+    "url": "https://archive.ics.uci.edu/static/public/368/facebook+metrics.zip",
+    "original_file": "dataset_Facebook.csv",
+    "sha256": "666ec82952b7ce90b464f5a87ec4f0fe92d9a63208f2fcb2d0443cb5f31c3f4c",
+    "license": "CC BY 4.0"
+  }
+}

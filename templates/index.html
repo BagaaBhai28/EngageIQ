@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>EngageIQ · Engagement intelligence</title><link rel="stylesheet" href="/static/css/style.css"><script defer src="/static/vendor/chart.umd.js"></script><script defer src="/static/js/app.js"></script></head>
+<body>
+<aside class="sidebar">
+ <a href="#overview" class="brand"><span class="brand-icon">↗</span> Engage<span>IQ</span></a>
+ <div class="workspace"><span class="avatar">E</span><div>Research workspace<small>Facebook analytics</small></div><span class="workspace-dot"></span></div>
+ <div class="nav-caption">WORKSPACE</div>
+ <nav aria-label="Main navigation">
+  <a href="#overview" data-page="overview"><span>▦</span> Overview</a>
+  <a href="#content" data-page="content"><span>▤</span> Content performance</a>
+  <a href="#timing" data-page="timing"><span>◷</span> Posting times</a>
+  <a href="#segments" data-page="segments"><span>◈</span> Engagement segments</a>
+  <div class="nav-caption">PREDICT & EXPLORE</div>
+  <a href="#predict" data-page="predict"><span>✧</span> Engagement predictor <b>ML</b></a>
+  <a href="#model" data-page="model"><span>⌁</span> Model performance</a>
+  <a href="#history" data-page="history"><span>↺</span> Prediction history</a>
+  <div class="nav-caption">DATA</div>
+  <a href="#datasets" data-page="datasets"><span>▱</span> Datasets & uploads</a>
+ </nav>
+ <div class="sidebar-bottom"><span class="status-dot"></span> Local workspace<small>Historical data. Real insights.</small></div>
+</aside>
+<main>
+ <header class="topbar"><span>Workspace <span class="slash">/</span> <strong id="breadcrumb">Overview</strong></span><span class="local-badge">● &nbsp; Local research environment</span></header>
+ <div class="main-inner">
+ <div class="page-heading"><div><p class="eyebrow">YOUR CONTENT, UNDERSTOOD.</p><h1 id="page-title">Engagement overview</h1><p id="page-description">See what resonates. Find the patterns behind every interaction.</p></div><a class="button secondary" id="export" href="/api/export">↓ &nbsp; Export data</a></div>
+ <div id="notice" role="status" hidden></div>
+ <section class="filterbar" id="filters" aria-label="Analytics filters"><div class="filter-source"><span class="facebook">f</span><label>Dataset<select id="dataset"><option value="builtin">Facebook Live Sellers · UCI</option><option value="uploaded">My uploaded dataset</option></select></label></div><label>Content type<select id="type"><option value="">All content types</option><option>video</option><option>photo</option><option>status</option><option>link</option></select></label><label>From<input type="date" id="start"></label><label>To<input type="date" id="end"></label><button class="text-button" id="reset">Reset filters ↺</button></section>
+ <div id="view" aria-live="polite"><div class="loading">Loading your analytics…</div></div>
+ <footer><span>EngageIQ <span class="footer-dot">·</span> Social media engagement intelligence</span><span>Historical Facebook research · UCI · CC BY 4.0</span></footer>
+ </div>
+</main>
+</body></html>

@@ -1,0 +1,713 @@
+{
+  "selected_model": "Ridge (log target)",
+  "version": "1.0",
+  "trained_at": "2026-10-30T17:08:21.245460+00:00",
+  "sklearn_version": "1.9.1",
+  "training_records": 345,
+  "testing_records": 155,
+  "split": "Train months 1\u20139; untouched test months 10\u201312 (2014). Validation uses expanding month folds 6\u20139.",
+  "features": [
+    "Page total likes",
+    "Type",
+    "Category",
+    "Post Month",
+    "Post Weekday",
+    "Post Hour",
+    "Paid"
+  ],
+  "metrics": {
+    "mae": 135.86306569354358,
+    "rmse": 252.0295473189439,
+    "r2": -0.011014028334183301,
+    "baseline_mae": 136.70967741935485
+  },
+  "comparison": [
+    {
+      "name": "Ridge (log target)",
+      "cv_mae": 170.348
+    },
+    {
+      "name": "Median baseline",
+      "cv_mae": 171.672
+    },
+    {
+      "name": "Random forest (log target)",
+      "cv_mae": 171.802
+    },
+    {
+      "name": "Gradient boosting (log target)",
+      "cv_mae": 173.556
+    },
+    {
+      "name": "Decision tree (log target)",
+      "cv_mae": 175.733
+    },
+    {
+      "name": "Random forest",
+      "cv_mae": 187.237
+    },
+    {
+      "name": "Decision tree",
+      "cv_mae": 187.493
+    },
+    {
+      "name": "Gradient boosting",
+      "cv_mae": 191.245
+    },
+    {
+      "name": "Ridge",
+      "cv_mae": 208.164
+    }
+  ],
+  "actual_predicted": [
+    {
+      "actual": 185,
+      "predicted": 254.57
+    },
+    {
+      "actual": 65,
+      "predicted": 147.23
+    },
+    {
+      "actual": 142,
+      "predicted": 124.31
+    },
+    {
+      "actual": 378,
+      "predicted": 159.69
+    },
+    {
+      "actual": 430,
+      "predicted": 180.75
+    },
+    {
+      "actual": 0,
+      "predicted": 127.09
+    },
+    {
+      "actual": 1626,
+      "predicted": 222.13
+    },
+    {
+      "actual": 79,
+      "predicted": 223.23
+    },
+    {
+      "actual": 17,
+      "predicted": 79.6
+    },
+    {
+      "actual": 72,
+      "predicted": 87.82
+    },
+    {
+      "actual": 1136,
+      "predicted": 70.53
+    },
+    {
+      "actual": 222,
+      "predicted": 165.93
+    },
+    {
+      "actual": 238,
+      "predicted": 103.95
+    },
+    {
+      "actual": 148,
+      "predicted": 127.22
+    },
+    {
+      "actual": 271,
+      "predicted": 132.88
+    },
+    {
+      "actual": 34,
+      "predicted": 156.2
+    },
+    {
+      "actual": 0,
+      "predicted": 113.7
+    },
+    {
+      "actual": 139,
+      "predicted": 118.61
+    },
+    {
+      "actual": 97,
+      "predicted": 178.48
+    },
+    {
+      "actual": 17,
+      "predicted": 113.44
+    },
+    {
+      "actual": 6,
+      "predicted": 81.68
+    },
+    {
+      "actual": 458,
+      "predicted": 80.42
+    },
+    {
+      "actual": 7,
+      "predicted": 80.14
+    },
+    {
+      "actual": 9,
+      "predicted": 112.82
+    },
+    {
+      "actual": 8,
+      "predicted": 112.61
+    },
+    {
+      "actual": 2,
+      "predicted": 77.85
+    },
+    {
+      "actual": 232,
+      "predicted": 97.53
+    },
+    {
+      "actual": 4,
+      "predicted": 81.89
+    },
+    {
+      "actual": 6,
+      "predicted": 87.97
+    },
+    {
+      "actual": 7,
+      "predicted": 93.32
+    },
+    {
+      "actual": 9,
+      "predicted": 115.63
+    },
+    {
+      "actual": 242,
+      "predicted": 172.3
+    },
+    {
+      "actual": 10,
+      "predicted": 156.64
+    },
+    {
+      "actual": 5,
+      "predicted": 156.64
+    },
+    {
+      "actual": 3,
+      "predicted": 111.15
+    },
+    {
+      "actual": 10,
+      "predicted": 110.77
+    },
+    {
+      "actual": 10,
+      "predicted": 107.82
+    },
+    {
+      "actual": 10,
+      "predicted": 107.82
+    },
+    {
+      "actual": 12,
+      "predicted": 113.4
+    },
+    {
+      "actual": 34,
+      "predicted": 129.17
+    },
+    {
+      "actual": 68,
+      "predicted": 123.72
+    },
+    {
+      "actual": 48,
+      "predicted": 104.91
+    },
+    {
+      "actual": 39,
+      "predicted": 96.48
+    },
+    {
+      "actual": 154,
+      "predicted": 156.03
+    },
+    {
+      "actual": 100,
+      "predicted": 182.14
+    },
+    {
+      "actual": 202,
+      "predicted": 133.08
+    },
+    {
+      "actual": 265,
+      "predicted": 212.01
+    },
+    {
+      "actual": 1009,
+      "predicted": 137.48
+    },
+    {
+      "actual": 447,
+      "predicted": 199.51
+    },
+    {
+      "actual": 53,
+      "predicted": 115.29
+    },
+    {
+      "actual": 96,
+      "predicted": 144.49
+    },
+    {
+      "actual": 204,
+      "predicted": 217.57
+    },
+    {
+      "actual": 94,
+      "predicted": 182.29
+    },
+    {
+      "actual": 179,
+      "predicted": 81.33
+    },
+    {
+      "actual": 35,
+      "predicted": 88.23
+    },
+    {
+      "actual": 367,
+      "predicted": 89.93
+    },
+    {
+      "actual": 200,
+      "predicted": 123.02
+    },
+    {
+      "actual": 454,
+      "predicted": 101.99
+    },
+    {
+      "actual": 193,
+      "predicted": 178.94
+    },
+    {
+      "actual": 387,
+      "predicted": 165.92
+    },
+    {
+      "actual": 58,
+      "predicted": 131.15
+    },
+    {
+      "actual": 337,
+      "predicted": 138.3
+    },
+    {
+      "actual": 242,
+      "predicted": 79.03
+    },
+    {
+      "actual": 87,
+      "predicted": 107.46
+    },
+    {
+      "actual": 83,
+      "predicted": 158.13
+    },
+    {
+      "actual": 81,
+      "predicted": 169.73
+    },
+    {
+      "actual": 220,
+      "predicted": 95.95
+    },
+    {
+      "actual": 53,
+      "predicted": 126.92
+    },
+    {
+      "actual": 90,
+      "predicted": 182.58
+    },
+    {
+      "actual": 160,
+      "predicted": 174.35
+    },
+    {
+      "actual": 123,
+      "predicted": 99.98
+    },
+    {
+      "actual": 162,
+      "predicted": 111.69
+    },
+    {
+      "actual": 202,
+      "predicted": 124.71
+    },
+    {
+      "actual": 245,
+      "predicted": 117.24
+    },
+    {
+      "actual": 69,
+      "predicted": 144.68
+    },
+    {
+      "actual": 119,
+      "predicted": 136.03
+    },
+    {
+      "actual": 55,
+      "predicted": 81.11
+    },
+    {
+      "actual": 787,
+      "predicted": 109.01
+    },
+    {
+      "actual": 70,
+      "predicted": 112.31
+    },
+    {
+      "actual": 119,
+      "predicted": 148.18
+    },
+    {
+      "actual": 162,
+      "predicted": 136.64
+    },
+    {
+      "actual": 550,
+      "predicted": 170.95
+    },
+    {
+      "actual": 273,
+      "predicted": 201.51
+    },
+    {
+      "actual": 233,
+      "predicted": 146.8
+    },
+    {
+      "actual": 114,
+      "predicted": 130.78
+    },
+    {
+      "actual": 505,
+      "predicted": 111.44
+    },
+    {
+      "actual": 0,
+      "predicted": 109.73
+    },
+    {
+      "actual": 97,
+      "predicted": 143.56
+    },
+    {
+      "actual": 64,
+      "predicted": 176.48
+    },
+    {
+      "actual": 38,
+      "predicted": 80.75
+    },
+    {
+      "actual": 101,
+      "predicted": 133.33
+    },
+    {
+      "actual": 441,
+      "predicted": 254.81
+    },
+    {
+      "actual": 252,
+      "predicted": 147.36
+    },
+    {
+      "actual": 122,
+      "predicted": 221.0
+    },
+    {
+      "actual": 117,
+      "predicted": 165.5
+    },
+    {
+      "actual": 158,
+      "predicted": 127.25
+    },
+    {
+      "actual": 163,
+      "predicted": 134.28
+    },
+    {
+      "actual": 311,
+      "predicted": 223.5
+    },
+    {
+      "actual": 39,
+      "predicted": 129.2
+    },
+    {
+      "actual": 126,
+      "predicted": 87.84
+    },
+    {
+      "actual": 421,
+      "predicted": 114.44
+    },
+    {
+      "actual": 91,
+      "predicted": 129.84
+    },
+    {
+      "actual": 342,
+      "predicted": 219.33
+    },
+    {
+      "actual": 129,
+      "predicted": 127.53
+    },
+    {
+      "actual": 148,
+      "predicted": 85.89
+    },
+    {
+      "actual": 100,
+      "predicted": 226.31
+    },
+    {
+      "actual": 164,
+      "predicted": 175.0
+    },
+    {
+      "actual": 80,
+      "predicted": 213.86
+    },
+    {
+      "actual": 1777,
+      "predicted": 164.67
+    },
+    {
+      "actual": 393,
+      "predicted": 152.46
+    },
+    {
+      "actual": 186,
+      "predicted": 126.57
+    },
+    {
+      "actual": 279,
+      "predicted": 226.85
+    },
+    {
+      "actual": 339,
+      "predicted": 131.93
+    },
+    {
+      "actual": 192,
+      "predicted": 135.68
+    },
+    {
+      "actual": 142,
+      "predicted": 259.29
+    },
+    {
+      "actual": 252,
+      "predicted": 170.39
+    },
+    {
+      "actual": 106,
+      "predicted": 178.03
+    },
+    {
+      "actual": 104,
+      "predicted": 178.03
+    },
+    {
+      "actual": 152,
+      "predicted": 167.39
+    },
+    {
+      "actual": 599,
+      "predicted": 248.94
+    },
+    {
+      "actual": 108,
+      "predicted": 173.62
+    },
+    {
+      "actual": 54,
+      "predicted": 212.18
+    },
+    {
+      "actual": 713,
+      "predicted": 89.08
+    },
+    {
+      "actual": 75,
+      "predicted": 180.11
+    },
+    {
+      "actual": 42,
+      "predicted": 167.72
+    },
+    {
+      "actual": 81,
+      "predicted": 178.17
+    },
+    {
+      "actual": 0,
+      "predicted": 114.38
+    },
+    {
+      "actual": 18,
+      "predicted": 90.19
+    },
+    {
+      "actual": 96,
+      "predicted": 175.01
+    },
+    {
+      "actual": 121,
+      "predicted": 197.97
+    },
+    {
+      "actual": 106,
+      "predicted": 186.21
+    },
+    {
+      "actual": 494,
+      "predicted": 120.26
+    },
+    {
+      "actual": 117,
+      "predicted": 206.67
+    },
+    {
+      "actual": 622,
+      "predicted": 166.69
+    },
+    {
+      "actual": 174,
+      "predicted": 176.27
+    },
+    {
+      "actual": 162,
+      "predicted": 190.45
+    },
+    {
+      "actual": 39,
+      "predicted": 182.07
+    },
+    {
+      "actual": 204,
+      "predicted": 212.96
+    },
+    {
+      "actual": 125,
+      "predicted": 139.11
+    },
+    {
+      "actual": 75,
+      "predicted": 116.08
+    },
+    {
+      "actual": 199,
+      "predicted": 135.29
+    },
+    {
+      "actual": 113,
+      "predicted": 222.45
+    },
+    {
+      "actual": 100,
+      "predicted": 116.6
+    },
+    {
+      "actual": 269,
+      "predicted": 99.44
+    },
+    {
+      "actual": 59,
+      "predicted": 107.93
+    },
+    {
+      "actual": 262,
+      "predicted": 141.36
+    },
+    {
+      "actual": 211,
+      "predicted": 119.65
+    },
+    {
+      "actual": 36,
+      "predicted": 135.02
+    },
+    {
+      "actual": 46,
+      "predicted": 101.69
+    },
+    {
+      "actual": 58,
+      "predicted": 129.89
+    },
+    {
+      "actual": 71,
+      "predicted": 137.62
+    },
+    {
+      "actual": 214,
+      "predicted": 94.33
+    },
+    {
+      "actual": 32,
+      "predicted": 86.83
+    },
+    {
+      "actual": 92,
+      "predicted": 87.36
+    },
+    {
+      "actual": 14,
+      "predicted": 76.94
+    }
+  ],
+  "clustering": {
+    "selected_k": 2,
+    "candidates": [
+      {
+        "k": 2,
+        "silhouette": 0.5536976702424996
+      },
+      {
+        "k": 3,
+        "silhouette": 0.46820417223861327
+      },
+      {
+        "k": 4,
+        "silhouette": 0.3727565943501874
+      },
+      {
+        "k": 5,
+        "silhouette": 0.37031065808643737
+      }
+    ]
+  },
+  "page_likes_range": [
+    81370,
+    135700
+  ],
+  "thresholds": [
+    90.0,
+    188.48000000000002
+  ]
+}
